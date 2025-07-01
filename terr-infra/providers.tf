@@ -5,7 +5,7 @@ terraform {
     }
   }
   required_version = ">=1.8.4"
-
+}
 data "terraform_remote_state" "setup" {
   backend = "remote"
 
